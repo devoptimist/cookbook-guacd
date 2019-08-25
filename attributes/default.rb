@@ -19,6 +19,7 @@ default['guacd']['packages'] = case node['platform']
                                  )
                                end
 
+default['guacd']['path'] = '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'
 default['guacd']['file'] = 'guacamole-server'
 default['guacd']['version'] = '1.0.0'
 default['guacd']['base_url'] = 'http://mirrors.ukfast.co.uk/sites/ftp.apache.org/guacamole'

@@ -4,5 +4,6 @@ pkg_version="1.0.0"
 pkg_maintainer="sbrown@chef.io"
 pkg_license=("Apache-2.0")
 pkg_scaffolding="chef/scaffolding-chef-infra"
+pkg_deps=(core/dpkg core/make core/gcc)
 scaffold_policy_name="Policyfile"
 scaffold_policyfile_path="$PLAN_CONTEXT/../" # habitat/../Policyfile.rb
